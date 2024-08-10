@@ -1,0 +1,104 @@
+/* Add all your styles here */
+*{
+  margin:0;
+  padding:0;
+  font-family:Poppines;
+}
+h3,.box,.flex{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+div.flex{
+  gap:5vw;
+  margin:2vw;
+}
+.box{
+  height:15vw;
+  width:15vw;
+  color:white;
+  font-size:5vw;
+  font-weight:bold;
+  border-radius:15px;
+  background-color:black;
+}
+.circle{
+  width:45vw;
+  height:45vw;
+  margin:3vw;
+  border:1vw dotted gray;
+  border-radius:50%;
+  position:relative;
+}
+.whiteC{
+  height:40vw;
+  width:40vw;
+  position:relative;
+  z-index:2;
+  border-radius:50%;
+  background:conic-gradient(white,gray,white,gray,white,gray,white,gray,white);
+}
+.line{
+  height:101%;
+  width:3%;
+  background-color:gray;
+  position:absolute;
+  right:48.5%;
+  z-index:1;
+}
+.li{
+  transform:rotate(90deg);
+  right:48.8%;
+}
+.b{
+  background-color:red;
+  position:absolute;
+  width:1%;
+  height:50%;
+  z-index:3;
+  top:0;
+  border-radius:10px;
+  transform-origin:bottom;
+}
+.indH{
+  width:3%;
+  height:35%;
+  top:15%;
+  background-color:black;
+}
+.indM{
+  width:2%;
+  height:40%;
+  top:10%;
+  background-color:black;
+}
+.dot{
+  width:3vw;
+  height:3vw;
+  top:47%;
+  z-index:10;
+  position:absolute;
+  border-radius:50%;
+  background-color:darkgray;
+}
+.num{
+  position:absolute;
+  z-index:20;
+  font-weight:bold;
+  font-size:4vw;
+}
+.date,.day{
+  position:absolute;
+  height:3.5vw;
+  width:12vw;
+  z-index:2;
+  right:12%;
+  bottom:42%;
+  color:white;
+  font-size:2vw;
+  border-radius:10px;
+  background-color:#333;
+}
+.day{
+  top:42%;
+}
